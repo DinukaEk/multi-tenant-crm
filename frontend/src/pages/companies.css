@@ -1,0 +1,154 @@
+.companies-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.search-box{
+  display:flex;
+  gap:10px;
+}
+
+.search-box input{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+
+.search-box button{
+  padding:10px 16px;
+  border:none;
+  border-radius:6px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+}
+
+
+/* TABLE CARD */
+
+.table-card{
+  background:var(--card);
+  color:var(--text);
+  border-radius:12px;
+  padding:20px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+
+/* TABLE */
+
+.companies-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.companies-table th{
+  text-align:left;
+  padding:14px;
+  border-bottom:1px solid #eee;
+  font-size:14px;
+  color:#64748b;
+}
+
+.companies-table td{
+  padding:14px;
+  border-bottom:1px solid #f1f5f9;
+}
+
+.companies-table tr{
+  cursor:pointer;
+  transition:0.15s;
+}
+
+.companies-table tr:hover{
+  background:#f8fafc;
+}
+
+
+/* LOGO */
+
+.company-logo{
+  width:34px;
+  height:34px;
+  border-radius:6px;
+}
+
+.logo-placeholder{
+  width:34px;
+  height:34px;
+  background:#e2e8f0;
+  border-radius:6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:600;
+}
+
+
+/* NAME */
+
+.company-name{
+  font-weight:500;
+}
+
+
+/* BUTTONS */
+
+.delete-btn{
+  padding:6px 10px;
+  border:none;
+  border-radius:6px;
+  background:#ef4444;
+  color:white;
+  cursor:pointer;
+}
+
+.delete-btn:hover{
+  background:#dc2626;
+}
+
+
+/* CREATE CARD */
+
+.create-card{
+  margin-top:25px;
+  background:var(--card);
+  color:var(--text);
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:10px;
+  margin-top:10px;
+}
+
+.form-grid input{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+
+.create-btn{
+  margin-top:15px;
+  padding:10px 16px;
+  border:none;
+  border-radius:6px;
+  background:#10b981;
+  color:white;
+  cursor:pointer;
+}
+
+.create-btn:hover{
+  background:#059669;
+}
+
+.readonly-text{
+  margin-top:15px;
+  color:#64748b;
+}

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django
+.env
+db.sqlite3
+media/
+
+# Virtual Environment
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Vite
+.vite/
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
+
+# AWS credentials
+.aws/

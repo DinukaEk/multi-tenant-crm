@@ -1,0 +1,85 @@
+.dashboard-title{
+  font-size:24px;
+  font-weight:600;
+  margin-bottom:25px;
+}
+
+/* GRID */
+
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+
+
+/* CARD */
+
+.stat-card{
+  display:flex;
+  align-items:center;
+  gap:20px;
+
+  background:var(--card);
+  color:var(--text);
+
+  padding:22px;
+  border-radius:12px;
+
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+
+  transition:all 0.2s ease;
+}
+
+.stat-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+
+/* ICON */
+
+.stat-icon{
+  width:50px;
+  height:50px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:10px;
+}
+
+.companies .stat-icon{
+  background:#dbeafe;
+  color:#1d4ed8;
+}
+
+.contacts .stat-icon{
+  background:#dcfce7;
+  color:#047857;
+}
+
+
+/* COLORS */
+
+.companies .stat-icon{
+  background:#dbeafe;
+}
+
+.contacts .stat-icon{
+  background:#dcfce7;
+}
+
+
+/* TEXT */
+
+.stat-label{
+  font-size:14px;
+  color:#64748b;
+}
+
+.stat-value{
+  font-size:28px;
+  font-weight:700;
+}

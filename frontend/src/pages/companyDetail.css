@@ -1,0 +1,148 @@
+.company-header{
+  margin-bottom:25px;
+}
+
+.company-info{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.company-detail-logo{
+  width:60px;
+  height:60px;
+  border-radius:10px;
+}
+
+.company-logo-placeholder{
+  width:60px;
+  height:60px;
+  border-radius:10px;
+  background:#e2e8f0;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:22px;
+  font-weight:600;
+}
+
+.company-meta{
+  color:#64748b;
+}
+
+
+/* CONTACTS */
+
+.contacts-section{
+  margin-top:20px;
+}
+
+.contacts-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:15px;
+  margin-top:15px;
+}
+
+.contact-card{
+  background:white;
+  border-radius:10px;
+  padding:15px;
+
+  display:flex;
+  align-items:center;
+  gap:15px;
+
+  box-shadow:0 6px 18px rgba(0,0,0,0.05);
+
+  transition:0.2s;
+}
+
+.contact-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.contact-avatar{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+
+  background:#2563eb;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-weight:600;
+}
+
+.contact-info{
+  flex:1;
+}
+
+.contact-name{
+  font-weight:500;
+}
+
+.contact-email{
+  font-size:13px;
+  color:#64748b;
+}
+
+.delete-contact{
+  border:none;
+  padding:6px 10px;
+  border-radius:6px;
+
+  background:#ef4444;
+  color:white;
+
+  cursor:pointer;
+}
+
+.delete-contact:hover{
+  background:#dc2626;
+}
+
+
+/* ADD CONTACT */
+
+.add-contact-card{
+  margin-top:25px;
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.contact-form{
+  display:flex;
+  gap:10px;
+  margin-top:10px;
+}
+
+.contact-form input{
+  flex:1;
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+
+.contact-form button{
+  padding:10px 16px;
+  border:none;
+  border-radius:6px;
+
+  background:#10b981;
+  color:white;
+
+  cursor:pointer;
+}
+
+.contact-form button:hover{
+  background:#059669;
+}
